@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This is the admin dashboard for an Ecommerce Website.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": { 
+  "start": "node ./index.js",
+  "dev": "nodemon ./index.js"
   },
   "author": "Keshav Singh Yadav",
   "license": "ISC",
