@@ -1,0 +1,167 @@
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background: skyblue;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  float: left;
+  border-radius: 20%;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background: skyblue;
+}
+
+.register {
+  margin-left: 30%;
+}
+
+.login {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.add-product {
+  margin-left: 30%;
+}
+
+.profile {
+  margin-left: 30%;
+}
+
+.input-box {
+  display: block;
+  margin: 20px;
+  padding: 8px;
+  width: 300px;
+  border: 2px solid skyblue;
+}
+
+.validation-error {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 30px;
+}
+
+.app-button, .profile-button {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background: skyblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.product-list {
+  text-align: center;
+}
+
+.product-table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid skyblue;
+  width: 80%;
+  /* border-collapse: collapse; */
+}
+
+.search {
+  width: 350px;
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+}
+
+.prodListBtn {
+  font-size: 13px;
+  text-decoration: none;
+  background: skyblue;
+  padding: 3px 5px;
+  border: 2px solid black;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+@media (max-width: 576px) {
+  .register, .login, .add-product, .profile {
+    margin-left: 3%;
+  }
+
+  .profile-button {
+    margin: 18px;
+  }
+
+  .search {
+    width: 280px;
+  }
+
+  .product-list-tbl {
+    margin: 0 auto;
+    width: 95%;
+    overflow: auto;
+    overflow-x: scroll;
+  }
+
+  .product-table {
+    width: 500px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
